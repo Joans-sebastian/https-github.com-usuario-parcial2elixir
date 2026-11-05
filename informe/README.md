@@ -121,4 +121,4 @@ datos/                          Archivos de entrada de cada caso
 
 ## Repositorio
 
-URL: _(pegar aquí la URL del repositorio de GitHub)_
+URL: https://github.com/Joans-sebastian/https-github.com-usuario-parcial2elixir
