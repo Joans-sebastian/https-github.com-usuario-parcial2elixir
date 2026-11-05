@@ -1,0 +1,3 @@
+=== A → B ===
+los centros A y B no existen en la red; no se inicia la búsqueda
+

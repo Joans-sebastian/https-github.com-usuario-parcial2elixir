@@ -1,0 +1,6 @@
+# consultas validas, con centro inexistente y con formato incorrecto
+A,D
+B,A
+Z,A
+A,Q,W
+D,A

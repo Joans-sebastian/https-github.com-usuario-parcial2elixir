@@ -1,0 +1,15 @@
+=== A → D ===
+Paso 0: {A}
+Paso 1: {A, B, C}
+Paso 2: {A, B, C, D}
+Paso 3: repite el paso 2 → se estabiliza en el paso 2
+Elementos del Stream consumidos: 4 (pasos 0 a 3)
+Destino D: alcanzable
+
+=== B → A ===
+Paso 0: {B}
+Paso 1: {B, C, D}
+Paso 2: repite el paso 1 → se estabiliza en el paso 1
+Elementos del Stream consumidos: 3 (pasos 0 a 2)
+Destino A: no alcanzable → sin itinerarios
+

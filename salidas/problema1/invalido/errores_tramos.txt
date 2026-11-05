@@ -1,0 +1,6 @@
+Líneas de tramos.csv con formato o datos incorrectos: 5
+Línea 3: B,C,ocho,4 | motivo: minutos: 'ocho' no es un número entero
+Línea 4: C,D,5 | motivo: se esperaban 4 campos (origen,destino,minutos,costo) y hay 3
+Línea 5: D,E,0,3 | motivo: minutos debe ser un entero positivo y es 0
+Línea 6: E,F,4,-2 | motivo: costo debe ser un entero positivo y es -2
+Línea 7: ,F,3,3 | motivo: el origen está vacío

@@ -1,0 +1,20 @@
+=== X → Y ===
+Itinerario 1: X → Y | tramos: 1 | 1 min | costo: 1
+    tramos usados: X→Y (1 min, costo 1)
+Total: 1 itinerario
+Menos tramos: 1
+Menor tiempo: 1
+Menor costo: 1
+
+=== Y → X ===
+El destino X no es alcanzable desde Y: sin itinerarios (se omitió la búsqueda exhaustiva).
+Total: 0 itinerarios
+
+=== X → X ===
+Itinerario 1: X | tramos: 0 | 0 min | costo: 0
+    tramos usados: ninguno (origen y destino coinciden)
+Total: 1 itinerario
+Menos tramos: 1
+Menor tiempo: 1
+Menor costo: 1
+

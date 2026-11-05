@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+<rect x="0" y="0" width="200" height="200" fill="#F1F5F9"/>
+<rect x="0" y="0" width="40" height="40" fill="#2563EB" stroke="#334155" stroke-width="1"><title>Fila 0, columna 0: agua (A), región 1</title></rect>
+<rect x="40" y="0" width="40" height="40" fill="#2563EB" stroke="#334155" stroke-width="1"><title>Fila 0, columna 1: agua (A), región 1</title></rect>
+<rect x="80" y="0" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 0, columna 2: fondo (.)</title></rect>
+<rect x="120" y="0" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 0, columna 3: bosque (B), región 2</title></rect>
+<rect x="160" y="0" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 0, columna 4: bosque (B), región 2</title></rect>
+<rect x="0" y="40" width="40" height="40" fill="#2563EB" stroke="#334155" stroke-width="1"><title>Fila 1, columna 0: agua (A), región 1</title></rect>
+<rect x="40" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 1: fondo (.)</title></rect>
+<rect x="80" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 2: fondo (.)</title></rect>
+<rect x="120" y="40" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 1, columna 3: bosque (B), región 2</title></rect>
+<rect x="160" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 4: fondo (.)</title></rect>
+<rect x="0" y="80" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 2, columna 0: fondo (.)</title></rect>
+<rect x="40" y="80" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 2, columna 1: fondo (.)</title></rect>
+<rect x="80" y="80" width="40" height="40" fill="#F59E0B" stroke="#334155" stroke-width="1"><title>Fila 2, columna 2: cultivo (C), región 3</title></rect>
+<rect x="120" y="80" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 2, columna 3: fondo (.)</title></rect>
+<rect x="160" y="80" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 2, columna 4: fondo (.)</title></rect>
+<rect x="0" y="120" width="40" height="40" fill="#F59E0B" stroke="#334155" stroke-width="1"><title>Fila 3, columna 0: cultivo (C), región 3</title></rect>
+<rect x="40" y="120" width="40" height="40" fill="#F59E0B" stroke="#334155" stroke-width="1"><title>Fila 3, columna 1: cultivo (C), región 3</title></rect>
+<rect x="80" y="120" width="40" height="40" fill="#F59E0B" stroke="#334155" stroke-width="1"><title>Fila 3, columna 2: cultivo (C), región 3</title></rect>
+<rect x="120" y="120" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 3, columna 3: fondo (.)</title></rect>
+<rect x="160" y="120" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 3, columna 4: bosque (B), región 4</title></rect>
+<rect x="0" y="160" width="40" height="40" fill="#F59E0B" stroke="#334155" stroke-width="1"><title>Fila 4, columna 0: cultivo (C), región 3</title></rect>
+<rect x="40" y="160" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 4, columna 1: fondo (.)</title></rect>
+<rect x="80" y="160" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 4, columna 2: fondo (.)</title></rect>
+<rect x="120" y="160" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 4, columna 3: bosque (B), región 4</title></rect>
+<rect x="160" y="160" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 4, columna 4: bosque (B), región 4</title></rect>
+<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">1</text>
+<text x="140" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">2</text>
+<text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">3</text>
+<text x="180" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">4</text>
+</svg>

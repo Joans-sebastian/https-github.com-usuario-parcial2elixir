@@ -1,0 +1,3 @@
+# Caso limite: el mapa no tiene filas (solo comentarios y lineas en blanco)
+
+   

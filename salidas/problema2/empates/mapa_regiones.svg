@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+<rect x="0" y="0" width="120" height="120" fill="#F1F5F9"/>
+<rect x="0" y="0" width="40" height="40" fill="#2563EB" stroke="#334155" stroke-width="1"><title>Fila 0, columna 0: agua &amp; &quot;rio&quot; &lt;dulce&gt; (A), región 1</title></rect>
+<rect x="40" y="0" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 0, columna 1: fondo (.)</title></rect>
+<rect x="80" y="0" width="40" height="40" fill="#16A34A" stroke="#334155" stroke-width="1"><title>Fila 0, columna 2: bosque (B), región 2</title></rect>
+<rect x="0" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 0: fondo (.)</title></rect>
+<rect x="40" y="40" width="40" height="40" fill="#2563EB" stroke="#334155" stroke-width="1"><title>Fila 1, columna 1: agua &amp; &quot;rio&quot; &lt;dulce&gt; (A), región 3</title></rect>
+<rect x="80" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 2: fondo (.)</title></rect>
+<rect x="0" y="80" width="40" height="40" fill="#F59E0B" stroke="#334155" stroke-width="1"><title>Fila 2, columna 0: cultivo (C), región 4</title></rect>
+<rect x="40" y="80" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 2, columna 1: fondo (.)</title></rect>
+<rect x="80" y="80" width="40" height="40" fill="#A16207" stroke="#334155" stroke-width="1"><title>Fila 2, columna 2: desierto (D), región 5</title></rect>
+<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">1</text>
+<text x="100" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">2</text>
+<text x="60" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">3</text>
+<text x="20" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">4</text>
+<text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">5</text>
+</svg>

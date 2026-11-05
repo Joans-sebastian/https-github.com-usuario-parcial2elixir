@@ -1,0 +1,27 @@
+=== A → D ===
+Paso 0: {A}
+Paso 1: {A, B}
+Paso 2: {A, B, D}
+Paso 3: repite el paso 2 → se estabiliza en el paso 2
+Elementos del Stream consumidos: 4 (pasos 0 a 3)
+Destino D: alcanzable
+
+=== B → A ===
+Paso 0: {B}
+Paso 1: {A, B, D}
+Paso 2: repite el paso 1 → se estabiliza en el paso 1
+Elementos del Stream consumidos: 3 (pasos 0 a 2)
+Destino A: alcanzable
+
+=== Z → A ===
+el centro Z no existe en la red; no se inicia la búsqueda
+
+=== Consulta inválida (línea 5): A,Q,W ===
+Motivo: se esperaba el formato origen,destino
+
+=== D → A ===
+Paso 0: {D}
+Paso 1: repite el paso 0 → se estabiliza en el paso 0
+Elementos del Stream consumidos: 2 (pasos 0 a 1)
+Destino A: no alcanzable → sin itinerarios
+

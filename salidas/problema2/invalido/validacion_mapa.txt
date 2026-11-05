@@ -1,0 +1,7 @@
+Se encontraron 6 problemas:
+ - paleta.csv línea 3: el color '#16A34' del símbolo 'B' no tiene la forma #RRGGBB
+ - paleta.csv línea 5: el símbolo 'A' está repetido (ya se definió en la línea 2)
+ - paleta.csv línea 6: se esperaban 3 campos (simbolo,nombre,color_hex) y hay 2
+ - paleta.csv: falta declarar el símbolo '.' (fondo)
+ - mapa.txt línea 3 (fila 1): tiene 5 columnas y se esperaban 4 (como la fila 0)
+ - mapa.txt línea 3 (fila 1), columna 2: el símbolo 'X' no está definido en paleta.csv

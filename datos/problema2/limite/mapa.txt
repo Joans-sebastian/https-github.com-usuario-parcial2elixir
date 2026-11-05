@@ -1,0 +1,2 @@
+# Caso limite: mapa de 1 x 1
+A

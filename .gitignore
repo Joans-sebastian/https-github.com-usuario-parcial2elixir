@@ -1,0 +1,20 @@
+# Archivos generados por Elixir / Mix
+/_build/
+/deps/
+/doc/
+/cover/
+erl_crash.dump
+*.beam
+*.ez
+
+# Editor (ElixirLS / VS Code)
+/.elixir_ls/
+/.vscode/
+/launch.json
+
+# Utilidades personales que no hacen parte de la entrega
+/convertir.py
+/informe/Codigo_Fuente.html
+
+# Salidas de pruebas manuales (las de cada caso sí se suben)
+/salidas/prueba/

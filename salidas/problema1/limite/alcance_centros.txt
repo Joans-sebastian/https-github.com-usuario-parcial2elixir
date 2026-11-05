@@ -1,0 +1,20 @@
+=== X → Y ===
+Paso 0: {X}
+Paso 1: {X, Y}
+Paso 2: repite el paso 1 → se estabiliza en el paso 1
+Elementos del Stream consumidos: 3 (pasos 0 a 2)
+Destino Y: alcanzable
+
+=== Y → X ===
+Paso 0: {Y}
+Paso 1: repite el paso 0 → se estabiliza en el paso 0
+Elementos del Stream consumidos: 2 (pasos 0 a 1)
+Destino X: no alcanzable → sin itinerarios
+
+=== X → X ===
+Paso 0: {X}
+Paso 1: {X, Y}
+Paso 2: repite el paso 1 → se estabiliza en el paso 1
+Elementos del Stream consumidos: 3 (pasos 0 a 2)
+Destino X: alcanzable
+

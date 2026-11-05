@@ -1,0 +1,15 @@
+# Caso invalido: errores de formato y de datos
+A,B,8,5
+B,C,ocho,4
+C,D,5
+D,E,0,3
+E,F,4,-2
+,F,3,3
+B,D,7,4
+
+# bucle y repeticion (se descartan en la depuracion)
+X,X,1,1
+A,B,2,2
+B,A,6,6
+# repetido con espacios: el reporte muestra el contenido original
+ B , A , 7 , 7

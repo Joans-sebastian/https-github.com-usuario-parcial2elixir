@@ -1,0 +1,4 @@
+# Empates: cuatro regiones de area 1 y perimetro 4; las diagonales no unen
+A . B
+. A .
+C . D

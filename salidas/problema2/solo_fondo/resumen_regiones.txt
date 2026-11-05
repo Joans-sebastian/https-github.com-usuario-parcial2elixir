@@ -1,0 +1,3 @@
+Número de regiones: 0
+Mayor área: no hay regiones (el mapa solo tiene fondo)
+Mayor perímetro: no hay regiones (el mapa solo tiene fondo)

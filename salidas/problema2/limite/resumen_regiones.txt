@@ -1,0 +1,3 @@
+Número de regiones: 1
+Mayor área: 1 casilla → región 1 (A, agua)
+Mayor perímetro: 4 lados → región 1 (A, agua)

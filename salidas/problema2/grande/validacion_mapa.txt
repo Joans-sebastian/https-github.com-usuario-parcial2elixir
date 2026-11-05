@@ -1,0 +1,1 @@
+Validación correcta: mapa.txt y paleta.csv no tienen problemas.

@@ -1,0 +1,3 @@
+Número de regiones: 79
+Mayor área: 50 casillas → región 11 (C, cultivo)
+Mayor perímetro: 64 lados → región 11 (C, cultivo)

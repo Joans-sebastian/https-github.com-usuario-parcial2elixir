@@ -1,0 +1,3 @@
+Número de regiones: 4
+Mayor área: 5 casillas → región 3 (C, cultivo)
+Mayor perímetro: 12 lados → región 3 (C, cultivo)

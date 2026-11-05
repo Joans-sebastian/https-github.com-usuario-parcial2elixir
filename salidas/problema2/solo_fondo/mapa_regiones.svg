@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="80" viewBox="0 0 120 80">
+<rect x="0" y="0" width="120" height="80" fill="#F1F5F9"/>
+<rect x="0" y="0" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 0, columna 0: fondo (.)</title></rect>
+<rect x="40" y="0" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 0, columna 1: fondo (.)</title></rect>
+<rect x="80" y="0" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 0, columna 2: fondo (.)</title></rect>
+<rect x="0" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 0: fondo (.)</title></rect>
+<rect x="40" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 1: fondo (.)</title></rect>
+<rect x="80" y="40" width="40" height="40" fill="#F1F5F9" stroke="#334155" stroke-width="1"><title>Fila 1, columna 2: fondo (.)</title></rect>
+</svg>

@@ -1,0 +1,3 @@
+Número de regiones: 5
+Mayor área: 1 casilla → región 1 (A, agua & "rio" <dulce>), región 2 (B, bosque), región 3 (A, agua & "rio" <dulce>), región 4 (C, cultivo), región 5 (D, desierto)
+Mayor perímetro: 4 lados → región 1 (A, agua & "rio" <dulce>), región 2 (B, bosque), región 3 (A, agua & "rio" <dulce>), región 4 (C, cultivo), región 5 (D, desierto)

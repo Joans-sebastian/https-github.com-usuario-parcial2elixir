@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+<rect x="0" y="0" width="40" height="40" fill="#F1F5F9"/>
+<rect x="0" y="0" width="40" height="40" fill="#2563EB" stroke="#334155" stroke-width="1"><title>Fila 0, columna 0: agua (A), región 1</title></rect>
+<text x="20" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">1</text>
+</svg>

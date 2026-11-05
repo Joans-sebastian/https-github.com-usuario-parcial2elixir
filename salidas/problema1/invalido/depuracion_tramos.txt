@@ -1,0 +1,4 @@
+Tramos descartados en la depuración: 3
+Línea 11: X,X,1,1 | motivo: bucle: el tramo sale y llega al mismo centro (X)
+Línea 12: A,B,2,2 | motivo: repetido: la pareja A → B ya se definió en la línea 2; se conserva la primera aparición
+Línea 15:  B , A , 7 , 7 | motivo: repetido: la pareja B → A ya se definió en la línea 13; se conserva la primera aparición

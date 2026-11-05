@@ -1,0 +1,26 @@
+=== A → D ===
+Itinerario 1: A → B → D | tramos: 2 | 15 min | costo: 9
+    tramos usados: A→B (8 min, costo 5), B→D (7 min, costo 4)
+Total: 1 itinerario
+Menos tramos: 1
+Menor tiempo: 1
+Menor costo: 1
+
+=== B → A ===
+Itinerario 1: B → A | tramos: 1 | 6 min | costo: 6
+    tramos usados: B→A (6 min, costo 6)
+Total: 1 itinerario
+Menos tramos: 1
+Menor tiempo: 1
+Menor costo: 1
+
+=== Z → A ===
+el centro Z no existe en la red; no se inicia la búsqueda
+
+=== Consulta inválida (línea 5): A,Q,W ===
+Motivo: se esperaba el formato origen,destino
+
+=== D → A ===
+El destino A no es alcanzable desde D: sin itinerarios (se omitió la búsqueda exhaustiva).
+Total: 0 itinerarios
+
