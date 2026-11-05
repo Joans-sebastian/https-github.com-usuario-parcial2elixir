@@ -1856,31 +1856,30 @@ D,desierto,#A16207
 
 <section>
 <h2>6. Reflexión sobre el uso de inteligencia artificial</h2>
-<p><b>1. Herramientas usadas.</b> Se usó <b>ChatGPT</b> para explicacion de algunos codigos<code>mix test</code> y abriendo los SVG en el navegador.</p>
+<p><b>1. Herramientas usadas.</b> Se usó <b>ChatGPT</b> para que me explicara partes del código que no entendía y para resolver dudas de Elixir. Todo lo que propuso lo verifiqué yo mismo: compilando, ejecutando <code>mix test</code> y abriendo los SVG generados en el navegador.</p>
 <p><b>2. Interacción decisiva.</b> Al compilar con <code>mix compile --warnings-as-errors</code>, el verificador de tipos de Elixir avisó
-«incompatible types given to Salida.escribir/2» en <code>Mapa.Svg.generar/4</code>. La propuesta inicial terminaba en
-<code>|&gt; Salida.escribir(ruta)</code>: con el operador pipe, el Stream del SVG quedaba como primer argumento (la ruta) y la ruta
-como segundo (las líneas). Se corrigió guardando el Stream en <code>fragmentos</code> y llamando
-<code>Salida.escribir(ruta, fragmentos)</code>. Se verificó con la prueba que analiza el SVG como XML y abriéndolo en el navegador.
-y mi consulta preguntandole a la IA cómo estructurar correctamente el pipeline con el operador pipe (|>) para evitar cruzar los argumentos de la ruta
-y los datos del Stream en el módulo de salida de archivos, lo qué respondió la IA y  que mr sugirió separar la llamada quitando el último pipe y pasando explícitamente los parámetros
-en orden de prioridad: Salida.escribir(ruta, contenido_stream). 
-y se verifico ejecutando nuevamente mix compile --warnings-as-errors para comprobar que el linter ya no reportara incompatibilidad de tipos,
-y ejecutando la prueba automatizada que valida la estructura XML del SVG generado.</span></p>
-<p><b>3. Enfoques nuevos.</b> 
-<p><b></b>(a) Detectar el bucle con el patrón <code>%Tramo{origen: c, destino: c}</code> en lugar de un <code>if</code>.
-<p><b></b>(b) Consumir un Stream infinito con <code>Enum.reduce_while/3</code>, que deja comparar cada estado con el anterior y detenerse con
-<code>:halt</code>. 
-<p><b></b>(c) Una prueba automática que lee el código fuente de las validaciones y falla si aparece <code>Enum.</code> o
-<code>Stream.</code>, para no romper el requisito 7 sin darme cuenta, el uso de <code>Enum.reduce_while/3</code> junto con <code>Streams</code> infinitos
-fue clave para manejar la lógica de estados de manera eficiente y limpia en Elixir.
-Aprendí a aprovechar el control de flujo funcional mediante acumuladores y la señal <code>:halt</code> para cortar la ejecución de forma segura sin recurrir a bucles imperativos tradicionales.</p>
-<p><b>4. Balance de aprendizaje.</b> logro un poco comprender con claridad la estructura modular del proyecto, la definición de structs, el diseño de patrones de coincidencia 
-<code>(pattern matching)</code> y la separación de responsabilidades entre el dominio, la persistencia y la interfaz de línea de comandos.
-y lo que puede generarme dificultad es el manejo avanzado de tipos de datos perezosos <code>(lazy evaluation)</code> con Streams y la depuración fina de errores de compilación estrictos bajo restricciones
-de inmutabilidad en concurrencia a veces requieren mayor análisis.
-Depronto para el proximo trabajo tendre que planificar las pruebas unitarias desde una etapa más temprana del desarrollo para detectar incompatibilidades de tipos y problemas
-en el flujo de datos antes de integrar los módulos principales.</p>
+«incompatible types given to Salida.escribir/2» en <code>Mapa.Svg.generar/4</code>. La versión inicial terminaba en
+<code>|&gt; Salida.escribir(ruta)</code>: por el operador pipe, el Stream del SVG llegaba como primer argumento (donde va la ruta) y la ruta
+como segundo (donde van las líneas).
+Le pregunté a ChatGPT cómo estructurar el pipeline para no cruzar los argumentos de la ruta y del Stream. Me sugirió quitar el último pipe,
+guardar el Stream en una variable <code>fragmentos</code> y pasar los parámetros explícitamente en el orden correcto:
+<code>Salida.escribir(ruta, fragmentos)</code>.
+Lo verifiqué ejecutando de nuevo <code>mix compile --warnings-as-errors</code> (ya no apareció la advertencia), con la prueba automática que
+analiza el SVG como XML y abriendo el archivo en el navegador.</p>
+<p><b>3. Enfoques nuevos.</b></p>
+<p>(a) Detectar el bucle con el patrón <code>%Tramo{origen: c, destino: c}</code> en lugar de un <code>if</code>.</p>
+<p>(b) Consumir un Stream infinito con <code>Enum.reduce_while/3</code>, que permite comparar cada estado con el anterior y detenerse con
+<code>:halt</code>. Aprendí a controlar el flujo con acumuladores y la señal <code>:halt</code> para cortar la ejecución de forma segura,
+sin recurrir a bucles imperativos.</p>
+<p>(c) Una prueba automática que lee el código fuente de las validaciones y falla si aparece <code>Enum.</code> o
+<code>Stream.</code>, para no romper el requisito 7 sin darme cuenta.</p>
+<p><b>4. Balance de aprendizaje.</b> Logré comprender con más claridad la estructura modular del proyecto, la definición de structs,
+el uso de la coincidencia de patrones (<i>pattern matching</i>) y la separación de responsabilidades entre la lectura de datos,
+los algoritmos y la escritura de resultados.
+Lo que todavía me genera dificultad es el manejo de la evaluación perezosa (<i>lazy evaluation</i>) con Streams y la depuración de
+los errores que detecta el compilador en modo estricto, que a veces requieren más análisis.
+Para el próximo trabajo planificaré las pruebas unitarias desde una etapa más temprana del desarrollo, para detectar
+incompatibilidades de tipos y problemas en el flujo de datos antes de integrar los módulos principales.</p>
 </section>
 
 <section>
